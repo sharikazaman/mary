@@ -1,0 +1,86 @@
+ /* All Common CSS Start Here */
+
+ *{
+
+  margin: 0;
+  padding: 0;
+
+
+ }
+
+ ul,ol{
+   list-style-type: none;
+
+ }
+    
+a{
+    text-decoration: none;
+}
+.container{
+     width: 1140px;
+     margin: 0 auto;
+}
+
+ /* All Common CSS End Here */
+
+
+ /* Header Part CSS Start Here */
+
+ .headerPart{
+    padding: 50px 0;
+    
+ }
+
+
+.menu ul{
+     display: flex;
+     gap: 71px;
+}
+.header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+
+.btn a{
+     padding: 18px 35px;
+     border-radius: 5px;
+     background: #FD6E0A;
+     font-family: "Open Sans", sans-serif;
+     font-weight: 700px;
+     font-size: 20px;
+     color: #FFFFFF;
+}
+
+.menu ul li a {
+     font-family: "Open Sans", sans-serif;
+     font-weight: 400px;
+     font-size: 20px;
+     color: #474747
+}  
+
+.menuBtnFlex{
+     display: flex;
+     gap: 51px
+}
+
+/* Header Part CSS End Here */
+
+/* Banner Part CSS Start Here */
+.bannerPart{
+padding-top: 161px;
+background-image: url(./images/developer.png) 
+
+}
+
+
+
+
+/* Banner Part CSS End Here */
+
+
+
+
+
+
